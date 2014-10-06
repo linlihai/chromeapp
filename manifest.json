@@ -1,0 +1,16 @@
+{
+  "name": "Chrome Sample App",
+  "description": "An example app",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "icons": {"32": "icon_32.png"},
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "http://www.zj12580.cn/*",
+	"https://www.zj12580.cn/*"
+  ]
+}
